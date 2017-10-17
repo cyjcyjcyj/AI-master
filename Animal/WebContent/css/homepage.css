@@ -1,0 +1,161 @@
+*{
+	margin:0;
+}
+body {
+	
+	background-image:url(/Animal/img/timg.JPG);	
+	
+	background-size:1440px 1000px;
+	
+	
+	
+	
+}
+.navbar-brand{
+	display:block;
+	width:1000px;
+	height:100px;
+	text-align:center;
+	margin:0 auto;
+	background-color:#c69823;
+	color:#fff;
+	font-size:80px;
+	text-decoration:none;
+	font-family:Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+	
+}
+#navbar{
+	position:absolute;
+	top:30px;
+	right:250px;
+	margin:3px;
+	background-color:white;
+	width:150px;
+	line-height:20px;
+	
+}
+.navbar-nav li a,.navbar-nav li a:hover,.navbar-nav li a:active,.navbar-nav li a:visited{
+	color:#c69823;
+	text-decoration:none;
+}
+.navbar-nav li a:hover{
+	color:red;
+}
+
+
+.container{
+	
+}
+.task-panel{
+	padding-top: 100px;
+}
+
+h3{
+	padding-top: 20px;
+	color: dimgrey;
+}
+
+
+.task {
+
+	z-index:20;
+	text-align: center;
+	float:left;
+	width:400px;
+	/*width: 300px;
+	height: 400px;*/
+	/*height: 500px;*/
+	min-height: 450px;
+	background-color: #ffc011;
+	border-radius: 10px;
+	/*float: left;*/
+	margin-left:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:20px;
+	z-index:1;
+	position:relative;
+}
+
+.inf{
+	
+	position:absolute;
+	top:350px;
+	right:50px;
+	cursor:pointer;
+	width:100px;
+	background-color:#3af443;
+	color:white;
+	border:4px solid #fff;
+	border-radius:25px;
+	line-height:30px;
+	
+	
+	
+}
+.inf a{
+	color:#fff;
+}
+.button_turn{
+	border: none;
+	background:none;
+}
+.button_turn:hover{
+	background: gainsboro;
+	border-radius: 4px;
+}
+.button_sendtoRight{
+	float: right;
+}
+.button_sendtoLeft{
+	float: left;
+}
+
+
+.edit_or_add{
+	padding-left: 5px;
+	padding-right:5px ;
+	padding-top: 10px;
+	width:400px;
+	display: none;
+	float: left;
+}
+
+.feature{
+	text-align:left;
+	float:left;
+}
+
+.featurerow{
+	padding-left:50px;
+}
+#features{
+	border:2px solid #c0c0c0;
+	height:350px;
+	padding:20px;
+}
+
+.list{
+	width:950px;
+	margin:0 auto;
+	display:none;
+}
+#beginbtn{
+	width:250px;
+	height:100px;
+	line-height:100px;
+	background-color:#ff3d01;
+	color:#fff;
+	font-size:30px;
+	text-align:center;
+	position:fixed;
+	cursor:pointer;
+	top:50%;
+	left:50%;
+	margin-left:-125px;
+	margin-top:-50px;
+	border:4px solid #fff;
+	border-radius:25px;
+	
+}
+
